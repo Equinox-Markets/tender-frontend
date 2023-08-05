@@ -62,6 +62,17 @@ const actualNetworks = [
     ],
     networkData: networks.arbitrum,
   },
+    {
+    chainId: networks.fantom.ChainId,
+    networkName: networks.fantom.blockExplorerName,
+    iconsSrc: "/images/ico/arbitrum-network.svg",
+    links: [
+      { linkName: "Fantom Bridge", url: "https://equalizer.exchange/bridge" },
+      { linkName: "FTMScan", url: "https://ftmscan.com/" },
+      { linkName: "Helpcenter", url: "https://www.fantom.foundation/" },
+    ],
+    networkData: networks.fantom,
+  },
   // {
   //   chainId: networks.avalanche.ChainId,
   //   networkName: networks.avalanche.blockExplorerName,
