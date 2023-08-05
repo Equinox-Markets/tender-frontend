@@ -101,7 +101,7 @@ export default function Header() {
       <div className="header__block bg-black z-20 relative h-[71px] lg:h-[110px] flex items-center justify-between">
         <div className="flex w-full c items-center justify-between max-w-[1400px]">
           <div className="w-[104px] block lg:w-[196px] z-20 relative">
-            <a href="https://Ender.fi">
+            <a href="https://fnder.fi">
               <img src="/images/logo1.svg" alt="Ender Finance" />
             </a>
           </div>
