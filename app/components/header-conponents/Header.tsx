@@ -13,10 +13,10 @@ const menuLinks = [
     name: "Markets",
     link: "/markets",
   },
-  {
-    name: "Earn",
-    link: "/earn",
-  },
+  //{
+    //name: "Earn",
+    //link: "/earn",
+  //},
   {
     name: "Docs",
     link: "https://docs.tender.fi",
