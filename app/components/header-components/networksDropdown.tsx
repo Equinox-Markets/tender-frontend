@@ -62,6 +62,17 @@ const actualNetworks = [
     ],
     networkData: networks.arbitrum,
   },
+  {
+    chainId: networks.fantom.ChainId,
+    networkName: networks.fantom.blockExplorerName,
+    iconsSrc: "/images/ico/arbitrum-network.svg",
+    links: [
+      { linkName: "Arbitrum Bridge", url: "https://bridge.arbitrum.io" },
+      { linkName: "Arbiscan", url: "https://arbiscan.io" },
+      { linkName: "Helpcenter", url: "https://support.uniswap.org/hc/en-us" },
+    ],
+    networkData: networks.fantom,
+  },
   // {
   //   chainId: networks.avalanche.ChainId,
   //   networkName: networks.avalanche.blockExplorerName,
